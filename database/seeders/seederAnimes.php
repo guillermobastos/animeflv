@@ -41,9 +41,9 @@ class seederAnimes extends Seeder
         ]);
 
         DB::table('users')->insert([
-                'name' => 'guillermo',
-                'email' => 'asdf@gmail.com',
-                'password' => 'guillermo123',
+                'name' => 'guille',
+                'email' => 'guille@gmail.com',
+                'password' => '$2y$10$bhjpMP7LYzJqkqhUdPo/KezK6/MiOSeT43wylvlz8ewY9Nb326EBO',
         ]);
 
     }
