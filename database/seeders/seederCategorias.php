@@ -17,7 +17,17 @@ class seederCategorias extends Seeder
     public function run()
     {
         DB::table('categorias') -> insert([
-            'nombreCategoria' => 'thriller',
+            [
+                'nombreCategoria' => 'Thriller',
+            ],
+
+            [
+                'nombreCategoria' => 'Policial',
+            ],
+            [
+                'nombreCategoria' => 'Aventuras',
+            ]
+
         ]);
     }
 }
